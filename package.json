@@ -1,0 +1,26 @@
+{
+  "name": "typescript-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --exec npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^20.9.0",
+    "apollo-server-express": "^3.12.1",
+    "express": "^4.18.2",
+    "graphql": "^15.8.0",
+    "nodemon": "^3.0.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "type-graphql": "^1.1.1",
+    "typescript": "^5.2.2"
+  }
+}
